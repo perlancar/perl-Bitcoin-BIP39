@@ -38,6 +38,7 @@ our %arg0_mnemonic = (
     mnemonic => {
         summary => 'Mnemonic phrase',
         schema => ['str*'],
+        req => 1,
         pos => 0,
     },
 );
