@@ -1,0 +1,8 @@
+0.002   2018-01-01 (PERLANCAR)
+
+	- [dist] Forgot to add prereq to at least WordList::EN::BIP39.
+
+
+0.001   2018-01-01 (PERLANCAR)
+
+        - First release.
