@@ -95,6 +95,7 @@ $SPEC{entropy_to_bip39_mnemonic} = {
     args_rels => {
         req_one => ['entropy', 'entropy_hex'],
     },
+    result_naked => 1,
 };
 sub entropy_to_bip39_mnemonic {
     require Digest::SHA;
@@ -142,9 +143,7 @@ $SPEC{bip39_mnemonic_to_entropy} = {
         %arg_language,
         %arg_encoding,
     },
-    args_rels => {
-        req_one => ['entropy', 'entropy_hex'],
-    },
+    result_naked => 1,
 };
 sub bip39_mnemonic_to_entropy {
     require Digest::SHA;
@@ -214,6 +213,7 @@ $SPEC{gen_bip39_mnemonic} = {
         %arg_language,
         %arg_bits,
     },
+    result_naked => 1,
 };
 sub gen_bip39_mnemonic {
     require Bytes::Random::Secure;
