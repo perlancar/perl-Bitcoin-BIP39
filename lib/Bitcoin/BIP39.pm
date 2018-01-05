@@ -251,6 +251,8 @@ As long as the appropriate C<< WordList::<LANG_CODE>::BIP39 >> module exists.
 
 =back
 
+Keywords: bitcoin, mnemonic code, mnemonic phrase, deterministic keys
+
 =head2 TODO
 
 =over
