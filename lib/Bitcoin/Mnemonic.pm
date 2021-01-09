@@ -1,6 +1,8 @@
 package Bitcoin::Mnemonic;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use alias::module 'Bitcoin::BIP39';

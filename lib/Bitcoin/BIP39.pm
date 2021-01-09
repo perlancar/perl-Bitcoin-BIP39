@@ -1,6 +1,8 @@
 package Bitcoin::BIP39;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -65,7 +67,7 @@ our %args_entropy = (
 
 our %arg_encoding = (
     encoding => {
-        schema => ['str', in=>"hex"],
+        schema => ['str', in=>["hex"]],
         default => 'hex',
     },
 );
